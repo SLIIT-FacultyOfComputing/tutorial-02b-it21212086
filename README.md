@@ -1,8 +1,5 @@
 # IT1050-Tutorial-02
 
-## Objectives : Convert C programs to C++
-Use your Repl.IT account and use the Instructions provided by your Instructors to complete the Tutorial.  All instructions are in the GitHub classroom and Repl.it  for the Tutorial Questions for Week 02. Please submit your solutions by commiting code from Repl.it
-
 ## Exercise 1 - Calculations
 
 Convert the C program given below which converts a length given in cm to inches to a C++ program.
@@ -29,16 +26,21 @@ printf("Hello World") --> std::cout << "Hello World";
 2.54cm = 1 inch
 
 ```c
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 void main(void) 
 {
     float cm, inches;
-    printf("Enter a length in cm : ");
-    scanf("%f",&cm);
+    cout<<"Enter a length in cm : ";
+    cin>>cm;
+  
     inches = cm / 2.54;
-    printf("Length in inches is %f \n", inches);
+    cout<<"Length in inches is %f "<<inches<<end 1;
+
+  return 0;
+  
 }   
-```
+
 
 ## Exercise 2 - Selection
 
